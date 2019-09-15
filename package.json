@@ -1,0 +1,31 @@
+{
+  "name": "nz_stats_analysis",
+  "version": "1.0.0",
+  "description": "This project goes through the open data available for use from the [stats nz](https://www.stats.govt.nz/large-datasets/csv-files-for-download/) website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shushiej/nz_govt_open_data.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shushiej/nz_govt_open_data/issues"
+  },
+  "homepage": "https://github.com/shushiej/nz_govt_open_data#readme",
+  "dependencies": {
+    "animejs": "^3.1.0",
+    "chart.js": "^2.8.0",
+    "chartjs-plugin-lineheight-annotation": "^0.3.5",
+    "next": "^9.0.5",
+    "react": "^16.9.0",
+    "react-chartjs-2": "^2.7.6",
+    "react-dom": "^16.9.0"
+  }
+}
